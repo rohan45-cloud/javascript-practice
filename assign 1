@@ -1,0 +1,22 @@
+function calculateTotal(price, deliveryFee = 50) {
+  return price + deliveryFee;
+}
+
+console.log(calculateTotal(500));
+console.log(calculateTotal(500, 20));
+
+Output : 
+550
+520
+
+
+
+APPROACH :
+
+Create function calculateTotal(price, deliveryFee).
+
+Set default parameter deliveryFee = 50.
+
+Add price + deliveryFee.
+
+If deliveryFee not given → default value used.
